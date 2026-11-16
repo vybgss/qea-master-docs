@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>QEA Master — Support</title>
+  <meta name="description" content="Answers to common questions about QEA Master, the viewer for .qea and .qeax model repositories on iPhone, iPad and Mac, and how to get in touch." />
+  <meta name="theme-color" content="#b4471a" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#1c1814" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" href="assets/favicon.ico" sizes="16x16 32x32 48x48" />
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png" media="(prefers-color-scheme: light)" />
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-dark.png" media="(prefers-color-scheme: dark)" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="stylesheet" href="assets/site.css" />
+</head>
+
+<body>
+  <header class="bar">
+    <div class="bar-inner">
+      <a class="brand" href="marketing.html"><img src="assets/icon.png" alt="" /><span>QEA Master</span></a>
+      <nav class="nav" aria-label="Site">
+        <a href="marketing.html">Overview</a>
+        <a href="support.html" aria-current="page">Support</a>
+        <a href="privacy-policy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <div class="group">
+      <div class="group-tab" aria-hidden="true">Support</div>
+      <div class="group-body">
+        <div class="group-main">
+          <picture>
+            <source srcset="assets/icon-dark.png" media="(prefers-color-scheme: dark)" />
+            <img src="assets/icon.png" width="76" height="76" alt="QEA Master app icon" />
+          </picture>
+          <div>
+            <h1>QEA Master Support</h1>
+            <p>A native viewer for .qea and .qeax model repositories on iPhone, iPad and Mac.
+              Answers to common questions are below; if yours is not here,
+              <a href="#contact">write to us</a>.</p>
+          </div>
+        </div>
+        <div class="group-layers" aria-hidden="true"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <ul class="toc">
+        <li><a href="#what">What is QEA Master?</a></li>
+        <li><a href="#open">How do I open a repository?</a></li>
+        <li><a href="#formats">Which files does it open?</a></li>
+        <li><a href="#canvas">How do I move around a diagram?</a></li>
+        <li><a href="#diagrams">How do I switch between diagrams?</a></li>
+        <li><a href="#inspector">Where do I see notes and tagged values?</a></li>
+        <li><a href="#browser">How do I browse the whole repository?</a></li>
+        <li><a href="#search">How do I find an element?</a></li>
+        <li><a href="#keyboard">Are there keyboard shortcuts?</a></li>
+        <li><a href="#export">Export and print</a></li>
+        <li><a href="#colours">Why do the colours look different?</a></li>
+        <li><a href="#errors">A file does not open. Why?</a></li>
+        <li><a href="#not-shown">What is not shown yet?</a></li>
+        <li><a href="#edit">Can I edit a model?</a></li>
+        <li><a href="#files">Where are my files stored?</a></li>
+        <li><a href="#settings">Settings, themes and language</a></li>
+        <li><a href="#rating">Why did the app ask me for a rating?</a></li>
+        <li><a href="#requirements">System requirements</a></li>
+        <li><a href="#contact">Contact and feedback</a></li>
+      </ul>
+    </div>
+
+    <h2 class="label">Getting started</h2>
+
+    <div class="card" id="what">
+      <h3>What is QEA Master?</h3>
+      <p>
+        A viewer for model repositories stored in .qea and .qeax files, such as those saved by
+        Sparx Systems Enterprise Architect. It opens a repository and draws its UML®, BPMN™ and
+        ArchiMate® diagrams natively, so you can walk through a model in a meeting, on the go or
+        at your desk. The app is written natively for Apple platforms: there is no web view
+        inside it, and it needs no account and no internet connection.
+      </p>
+    </div>
+
+    <div class="card" id="open">
+      <h3>How do I open a repository?</h3>
+      <p>
+        On iPhone and iPad, launch QEA Master and choose the file in the document browser — in
+        Recents, iCloud Drive or <strong>On My iPhone (or iPad) → QEA Master</strong> — or tap
+        the file in the Files app. On Mac, double-click the file in Finder, or choose File →
+        Open. The repository opens on its first diagram.
+      </p>
+    </div>
+
+    <div class="card" id="formats">
+      <h3>Which files does it open?</h3>
+      <ul>
+        <li><strong>.qea</strong> — a file-based repository with an SQLite database inside.</li>
+        <li><strong>.qeax</strong> — the same for shared use, including repositories in WAL
+          mode.</li>
+      </ul>
+      <p>
+        The format is recognised from the content, not the extension. Projects kept in other
+        file formats or on a server are not opened: save or transfer the project to a .qea or
+        .qeax file in your modelling tool first.
+      </p>
+    </div>
+
+    <h2 class="label">Exploring a repository</h2>
+
+    <div class="card" id="canvas">
+      <h3>How do I move around a diagram?</h3>
+      <p>
+        Drag anywhere to pan, and pinch to zoom; on Mac, scroll to move and hold
+        <kbd>⌘</kbd> while scrolling to zoom. The zoom controls in the bottom-right corner have
+        − and +, a fit button, and preset zoom levels behind the percentage. The minimap in the
+        corner shows the whole diagram — drag inside it to move. The <strong>“…”</strong> menu
+        has <strong>Fit to window</strong>, <strong>Zoom to Selection</strong> and switches for
+        the grid and the minimap.
+      </p>
+      <p>
+        Click or tap a shape to select it. Double-click or double-tap a package, a diagram frame
+        or a composite element to open its diagram; any other shape is zoomed to.
+      </p>
+    </div>
+
+    <div class="card" id="diagrams">
+      <h3>How do I switch between diagrams?</h3>
+      <p>
+        The diagram switcher at the top of the canvas lists every diagram by package. On iPad
+        and Mac, the <strong>Diagrams</strong> tab of the sidebar lists them too. The back and
+        forward arrows beside the diagram switcher walk through the diagrams you opened
+        (<kbd>⌘</kbd><kbd>[</kbd> and <kbd>⌘</kbd><kbd>]</kbd> with a keyboard).
+      </p>
+    </div>
+
+    <div class="card" id="inspector">
+      <h3>Where do I see notes, tagged values and connectors?</h3>
+      <p>
+        In <strong>Properties</strong>, the inspector. On iPad and Mac it is the panel on the
+        right, shown and hidden with the right-hand panel button in the toolbar; on iPhone, the
+        same button opens it as a sheet. For a selected element it shows:
+      </p>
+      <ul>
+        <li>its type, stereotype and profile, alias, status, author, version, package, owner,
+          classifier and GUID;</li>
+        <li>its notes, tagged values, attributes and operations;</li>
+        <li>every incoming and outgoing connector — tap one to go to the element at its other
+          end;</li>
+        <li>every diagram it appears on — tap one to open that diagram with the element
+          selected.</li>
+      </ul>
+      <p>
+        A connector shows its ends, type, stereotype, direction, roles and multiplicities. A
+        package shows its contents and its first diagram, and with nothing selected Properties
+        describes the diagram and the repository.
+      </p>
+    </div>
+
+    <div class="card" id="browser">
+      <h3>How do I browse the whole repository?</h3>
+      <p>
+        Open the <strong>Model Browser</strong> with the left-hand panel button in the toolbar:
+        on iPad and Mac it is the sidebar, on iPhone a sheet. <strong>Model</strong> is the
+        repository tree — packages, subpackages, diagrams and elements with their nested
+        elements and diagrams, each with a miniature of its figure. <strong>Diagrams</strong>
+        lists every diagram by package. The field at the top filters by name and keeps the path
+        to each match open. Selecting a shape on the canvas highlights it in the tree.
+      </p>
+    </div>
+
+    <div class="card" id="search">
+      <h3>How do I find an element?</h3>
+      <p>
+        <strong>Find Element</strong> (<kbd>⌘</kbd><kbd>F</kbd>) finds shapes on the current
+        diagram by name, alias or GUID and steps through them in reading order. The
+        <strong>command palette</strong> (<kbd>⌘</kbd><kbd>K</kbd>) searches the whole
+        repository — every diagram, package, element and connector — and jumps to the result,
+        opening the first diagram that shows it when it is not on the current one. It also runs
+        any command. On iPhone and iPad both are in the <strong>“…”</strong> menu.
+      </p>
+    </div>
+
+    <div class="card" id="keyboard">
+      <h3>Are there keyboard shortcuts?</h3>
+      <p>
+        Yes, on Mac and on iPad with a keyboard: <kbd>⌘</kbd><kbd>K</kbd> command palette,
+        <kbd>⌘</kbd><kbd>F</kbd> find, <kbd>⌘</kbd><kbd>[</kbd> and <kbd>⌘</kbd><kbd>]</kbd>
+        back and forward, <kbd>⌘</kbd><kbd>+</kbd> and <kbd>⌘</kbd><kbd>−</kbd> zoom,
+        <kbd>⌘</kbd><kbd>0</kbd> actual size, <kbd>⌘</kbd><kbd>9</kbd> fit to window,
+        <kbd>⌘</kbd><kbd>3</kbd> zoom to selection, <kbd>⇧</kbd><kbd>⌘</kbd><kbd>E</kbd> export
+        as PNG and <kbd>⌘</kbd><kbd>P</kbd> print. The full list is on the Keyboard page in
+        Settings.
+      </p>
+    </div>
+
+    <h2 class="label">Files and sharing</h2>
+
+    <div class="card" id="export">
+      <h3>How do I export or print a diagram?</h3>
+      <p>
+        On iPhone and iPad, open <strong>Export</strong> in the <strong>“…”</strong> menu; on
+        Mac, use the Export button in the toolbar or File → Export. You can export the current
+        diagram as PNG or as a vector PDF with selectable text, or every diagram as one PDF with
+        a page per diagram. <strong>Print</strong> is next to them (<kbd>⌘</kbd><kbd>P</kbd>).
+        Exports and printouts always use the light paper look, without the selection, whichever
+        theme you use on screen.
+      </p>
+    </div>
+
+    <div class="card" id="colours">
+      <h3>Why do the colours look different from my modelling tool?</h3>
+      <p>
+        Shapes are filled with the colours of the app's theme, by kind — classes, behaviour,
+        structure, ArchiMate layers — tuned to its warm palette. Colours someone set on purpose
+        in the repository, such as a red line or a highlighted box, are kept. To ignore the
+        file's colours entirely, turn off <strong>Use colours from the file</strong> in
+        Settings → Canvas.
+      </p>
+    </div>
+
+    <div class="card" id="errors">
+      <h3>A file does not open. Why?</h3>
+      <p>
+        QEA Master checks what the file actually contains and says so: a text shortcut to a
+        server-based repository, a different database, an empty or damaged file. Server-based
+        repositories are not supported — export the project to a .qea or .qeax file to view it.
+        If a file that opens in your modelling tool fails here, please
+        <a href="#contact">send it to us</a>.
+      </p>
+    </div>
+
+    <div class="card" id="not-shown">
+      <h3>What is not shown yet?</h3>
+      <p>
+        Images and alternate images stored in a repository, linked documents, diagram legends
+        and custom shape appearances. Shapes affected are drawn in their standard notation; the
+        rest of the repository opens as usual.
+      </p>
+    </div>
+
+    <div class="card" id="edit">
+      <h3>Can I edit a model?</h3>
+      <p>
+        No. QEA Master is a viewer: it opens and presents repositories and never changes the
+        file. Edit the model in your modelling tool, save it, and open it again in QEA Master.
+      </p>
+    </div>
+
+    <div class="card" id="files">
+      <h3>Where are my files stored?</h3>
+      <p>
+        Wherever you keep them. QEA Master uses the system file browser — Files on iPhone and
+        iPad, Finder on Mac — including iCloud Drive and any other provider you have connected.
+        On iPhone and iPad, the app's own folder is under <strong>Browse → On My iPhone (or
+        iPad) → QEA Master</strong>.
+      </p>
+    </div>
+
+    <h2 class="label">Settings</h2>
+
+    <div class="card" id="settings">
+      <h3>Where is Settings, and what is in it?</h3>
+      <p>
+        On iPhone and iPad, in the <strong>“…”</strong> toolbar menu; on Mac, choose QEA Master
+        → Settings or press <kbd>⌘</kbd><kbd>,</kbd>. It has four pages:
+      </p>
+      <ul>
+        <li><strong>General</strong> — appearance and interface language</li>
+        <li><strong>Canvas</strong> — dots, lines or a plain background, the minimap, colours
+          from the file, shadows under shapes</li>
+        <li><strong>Keyboard</strong> — every shortcut</li>
+        <li><strong>About</strong> — version and build</li>
+      </ul>
+    </div>
+
+    <div class="card" id="themes">
+      <h3>How do I change the theme?</h3>
+      <p>
+        In Settings → General → <strong>Appearance</strong>. <strong>Terracotta</strong>, the
+        default, uses the colours of the app icon; <strong>Light</strong> is the bright paper
+        look; <strong>Dark</strong> is espresso with cream lines. The change applies at once.
+      </p>
+    </div>
+
+    <div class="card" id="language">
+      <h3>Can I change the language?</h3>
+      <p>
+        Yes. The app is available in English, German, French, Ukrainian, Spanish, Japanese and
+        Portuguese, with UML terms in the established words of each language. By default it
+        follows your device language, falling back to English. To choose another, use Settings
+        → General in the app, or system settings: <strong>Settings → Apps → QEA Master →
+        Language</strong> on iPhone and iPad, <strong>System Settings → General → Language &amp;
+        Region → Applications</strong> on Mac. Both places change the same setting. The app's own
+        screens switch at once; the file browser, menus and system dialogs follow the next time
+        you open the app. Names, notes and tagged values from the model are always shown as
+        written.
+      </p>
+    </div>
+
+    <h2 class="label">About the app</h2>
+
+    <div class="card" id="offline">
+      <h3>Does it need an internet connection?</h3>
+      <p>
+        No. The app works entirely offline, makes no network requests and collects no data.
+        See the <a href="privacy-policy.html">Privacy Policy</a>.
+      </p>
+    </div>
+
+    <div class="card" id="rating">
+      <h3>Why did the app ask me for a rating?</h3>
+      <p>
+        Once you have used QEA Master for a while, it may show Apple's rating request right
+        after something worked — an export, a print, or a few jumps to other diagrams of an
+        element — at most once per version, and never right after something failed. Apple
+        decides whether the request actually appears. To turn such requests off for all apps, go
+        to <strong>Settings → App Store → In-App Ratings &amp; Reviews</strong> on iPhone and
+        iPad, or <strong>App Store → Settings</strong> on Mac.
+      </p>
+    </div>
+
+    <div class="card" id="requirements">
+      <h3>System requirements</h3>
+      <p>
+        iPhone with iOS 18 or later, iPad with iPadOS 18 or later, or a Mac with macOS 15 or
+        later.
+      </p>
+    </div>
+
+    <div class="card short" id="contact">
+      <h3>Contact and feedback</h3>
+      <p>
+        Didn't find your answer, found a diagram that renders wrongly, or missing something you
+        need? Write to us — we read everything, and a sample .qea or .qeax file attached to your
+        message helps enormously.
+      </p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:volodymyr.sichka@gmail.com?subject=QEA%20Master%20support">volodymyr.sichka@gmail.com</a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="foot">
+    <nav aria-label="Footer">
+      <a href="marketing.html">Overview</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </nav>
+    <p class="motto">The whole repository, one diagram at a time.</p>
+    <p>© 2026 Volodymyr Sichka</p>
+    <p class="legal">Enterprise Architect is a trademark of Sparx Systems Pty Ltd. UML® and BPMN™ are
+      trademarks of Object Management Group, Inc. ArchiMate® is a registered trademark of The Open
+      Group. QEA Master is not affiliated with or endorsed by Sparx Systems, Object Management Group
+      or The Open Group.</p>
+  </footer>
+</body>
+
+</html>

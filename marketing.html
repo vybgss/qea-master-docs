@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>QEA Master — a viewer for .qea and .qeax model repositories on iPhone, iPad and Mac</title>
+  <meta name="description"
+    content="QEA Master opens .qea and .qeax model repositories on iPhone, iPad and Mac and draws their UML, BPMN and ArchiMate diagrams natively. Every element a tap away, fully offline." />
+  <meta name="theme-color" content="#b4471a" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#1c1814" media="(prefers-color-scheme: dark)" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="QEA Master — your models on iPhone, iPad and Mac" />
+  <meta property="og:description"
+    content="A native viewer for .qea and .qeax model repositories. UML, BPMN and ArchiMate diagrams drawn natively, every element a tap away." />
+  <meta property="og:image" content="https://vybgss.github.io/qea-master-docs/assets/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="apple-itunes-app" content="app-id=6835485167" />
+  <link rel="icon" href="assets/favicon.ico" sizes="16x16 32x32 48x48" />
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png" media="(prefers-color-scheme: light)" />
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-dark.png" media="(prefers-color-scheme: dark)" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="stylesheet" href="assets/site.css" />
+</head>
+
+<body>
+  <header class="bar">
+    <div class="bar-inner">
+      <a class="brand" href="marketing.html"><img src="assets/icon.png" alt="" /><span>QEA Master</span></a>
+      <nav class="nav" aria-label="Site">
+        <a href="marketing.html" aria-current="page">Overview</a>
+        <a href="support.html">Support</a>
+        <a href="privacy-policy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <!-- The three shapes of the app icon as the app draws them: a class with its
+             compartments, associated with a use case that a task carries out. -->
+        <svg class="flow" viewBox="0 0 228 64" role="img" aria-label="A class associated with a use case, followed by a task">
+          <rect x="1" y="1" width="226" height="62" rx="31" style="fill: var(--card); stroke: var(--hairline)" />
+          <g class="shape-ink" fill="none" stroke-width="2.2">
+            <rect x="22" y="13" width="44" height="38" rx="1.5" class="fill-classifier" />
+            <path d="M22 24 H66 M22 38 H66" />
+          </g>
+          <path d="M33 18.5 H55 M28 30 H50 M28 44 H46" style="stroke: var(--muted)" stroke-width="2" stroke-linecap="round" />
+          <line x1="66" y1="32" x2="86" y2="32" style="stroke: var(--muted)" stroke-width="2" />
+          <path d="M80 27 L87 32 L80 37" fill="none" style="stroke: var(--muted)" stroke-width="2"
+            stroke-linejoin="round" stroke-linecap="round" />
+          <ellipse cx="114" cy="32" rx="25" ry="14" class="fill-behavior shape-ink" stroke-width="2.2" />
+          <line x1="139" y1="32" x2="156" y2="32" style="stroke: var(--muted)" stroke-width="2" />
+          <polygon points="155,28 162,32 155,36" style="fill: var(--muted)" />
+          <rect x="163" y="19" width="46" height="26" rx="7" class="fill-accent" />
+        </svg>
+
+        <p class="kicker">Model repository viewer</p>
+        <h1>Your model repositories, native on iPhone, iPad and Mac</h1>
+        <p class="lede">
+          Open .qea and .qeax files and walk through every UML, BPMN and ArchiMate® diagram,
+          element and connector — in a meeting, on the go or at your desk.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="https://apps.apple.com/app/id6835485167">Get it on the App Store</a>
+          <a class="button ghost" href="support.html">How it works</a>
+        </div>
+        <p class="requires">For iOS 18, iPadOS 18 and macOS 15 or later</p>
+
+        <img class="devices" src="assets/img/hero-devices.webp" width="1800" height="1112"
+          alt="QEA Master on iPad, MacBook, iPhone Duo and iPhone, showing a use case diagram with the model browser, a class diagram, an element's properties and a business process of an example model" />
+      </div>
+    </section>
+
+    <div class="wide">
+      <section class="feature">
+        <div class="feature-text">
+          <p class="label">Notation</p>
+          <h2>Every diagram, drawn natively</h2>
+          <p>
+            Shapes stand where the repository put them, drawn by the app itself from the
+            specifications — sharp at any zoom, in the theme you choose.
+          </p>
+          <ul class="layered">
+            <li>UML: classes with their compartments, use cases, activities, states, sequences, components and deployment</li>
+            <li>BPMN: tasks with their markers, events, gateways, pools, lanes and data objects</li>
+            <li>ArchiMate: every element in its layer colour with its icon, every relationship with its exact line and ends</li>
+          </ul>
+        </div>
+        <div class="feature-art">
+          <img class="tablet" src="assets/img/ipad-process.webp" width="860" height="1102" loading="lazy"
+            alt="iPad showing a business process with two lanes, a gateway, events and typed tasks" />
+        </div>
+      </section>
+
+      <section class="feature flip">
+        <div class="feature-text">
+          <p class="label">Properties</p>
+          <h2>Every element, a tap away</h2>
+          <p>
+            Select a shape and Properties shows what the element is and everything it touches,
+            across the whole repository.
+          </p>
+          <ul class="layered">
+            <li>Type, stereotype, notes, tagged values, attributes and operations</li>
+            <li>Every incoming and outgoing connector — tap one to go to the other end</li>
+            <li>Every diagram the element appears on — tap one to open it with the element selected</li>
+          </ul>
+        </div>
+        <div class="feature-art">
+          <img class="phone" src="assets/img/phone-inspect.webp" width="640" height="1237" loading="lazy"
+            alt="iPhone showing the Coffee class selected, with its notes and tagged values in a sheet" />
+        </div>
+      </section>
+
+      <section class="feature">
+        <div class="feature-text">
+          <p class="label">Made for Mac</p>
+          <h2>Any diagram or element is a <kbd>⌘</kbd><kbd>K</kbd> away</h2>
+          <p>
+            One search field for every diagram, package, element and connector of the
+            repository, and for every command.
+          </p>
+          <ul class="layered">
+            <li>Model browser, canvas and properties side by side</li>
+            <li>Find on the diagram, back and forward, zoom presets and a minimap</li>
+            <li>Keyboard shortcuts, menus and printing</li>
+          </ul>
+        </div>
+        <div class="feature-art">
+          <img class="laptop" src="assets/img/mac-palette.webp" width="1278" height="797" loading="lazy"
+            alt="MacBook showing the command palette searching the repository for order" />
+        </div>
+      </section>
+
+      <section class="feature flip">
+        <div class="feature-text">
+          <p class="label">Model browser</p>
+          <h2>The whole repository, package by package</h2>
+          <p>
+            Packages, diagrams and elements as a tree, the way the repository keeps them, or
+            every diagram grouped by package.
+          </p>
+          <ul class="layered">
+            <li>Nested packages, elements with their own elements and diagrams</li>
+            <li>A filter that searches by name and keeps the path to each match open</li>
+            <li>Select a shape on the canvas and the tree opens down to it</li>
+          </ul>
+        </div>
+        <div class="feature-art">
+          <img class="duo" src="assets/img/duo-browser.webp" width="700" height="947" loading="lazy"
+            alt="iPhone Duo showing the model browser with the Use Cases package open" />
+        </div>
+      </section>
+
+      <section class="feature">
+        <div class="feature-text">
+          <p class="label">Three themes</p>
+          <h2>Terracotta, Light or Dark</h2>
+          <p>
+            Terracotta takes its colours from the app icon: a terracotta bar and a warm clay
+            canvas. Light is bright paper; Dark is espresso with cream lines.
+          </p>
+          <ul class="layered">
+            <li>Switch at any time in Settings — it applies instantly</li>
+            <li>Notation fills tuned to each theme, colours from the file kept</li>
+            <li>Exported images, PDFs and printouts always use the light paper look</li>
+          </ul>
+        </div>
+        <div class="feature-art">
+          <img class="phone" src="assets/img/phone-dark.webp" width="640" height="1237" loading="lazy"
+            alt="iPhone showing a layered architecture view in the Dark theme" />
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <p class="label">Everything in the file</p>
+          <h2>Your repository, complete</h2>
+        </div>
+        <div class="grid">
+          <div class="card">
+            <svg class="glyph" viewBox="0 0 34 34" aria-hidden="true">
+              <ellipse cx="17" cy="8" rx="11" ry="4" class="shape-fill shape-ink" stroke-width="2.2" />
+              <path d="M6 8 V26 C6 31.3 28 31.3 28 26 V8" fill="none" class="shape-ink" stroke-width="2.2" />
+              <path d="M6 14.5 C6 19.8 28 19.8 28 14.5 M6 20.5 C6 25.8 28 25.8 28 20.5" fill="none"
+                class="shape-accent" stroke-width="2" />
+            </svg>
+            <h3>.qea and .qeax files</h3>
+            <p>File-based repositories with an SQLite database inside, such as those saved by
+              Sparx Systems Enterprise Architect, including shared .qeax files in WAL mode.</p>
+          </div>
+          <div class="card">
+            <svg class="glyph" viewBox="0 0 34 34" aria-hidden="true">
+              <rect x="4" y="5" width="26" height="24" rx="1.5" class="fill-classifier shape-ink" stroke-width="2.2" />
+              <path d="M4 13 H30 M4 21 H30" class="shape-ink" stroke-width="2" />
+              <path d="M10 9 H24" class="shape-accent" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <h3>Packages to members</h3>
+            <p>Packages, diagrams, elements, attributes, operations, tagged values, notes and
+              connectors with roles and multiplicities, as the repository stores them.</p>
+          </div>
+          <div class="card">
+            <svg class="glyph" viewBox="0 0 34 34" aria-hidden="true">
+              <path d="M8 3 H21 L27 9 V31 H8 Z" class="shape-fill shape-ink" stroke-width="2.2"
+                stroke-linejoin="round" />
+              <path d="M21 3 V9 H27" fill="none" class="shape-ink" stroke-width="2.2" stroke-linejoin="round" />
+              <path d="M12.5 20 L16 23.5 L22.5 16" fill="none" class="shape-accent" stroke-width="2.4"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <h3>Read-only, always</h3>
+            <p>The app reads a copy of the file and never writes to it. A damaged file or a
+              shortcut to a server repository gets a plain explanation instead of an error.</p>
+          </div>
+          <div class="card">
+            <svg class="glyph" viewBox="0 0 34 34" aria-hidden="true">
+              <path d="M4 4 H30 V26 C24 21.5 17 30.5 10 27 C7.5 25.8 5.5 25.8 4 26.6 Z" class="shape-fill shape-ink"
+                stroke-width="2.2" stroke-linejoin="round" />
+              <path d="M9 10 H25 M9 15 H21" class="shape-accent" stroke-width="2" stroke-linecap="round" />
+            </svg>
+            <h3>Share and print</h3>
+            <p>Export a diagram as PNG or vector PDF, or every diagram as one PDF with a page per
+              diagram, and print.</p>
+          </div>
+          <div class="card">
+            <svg class="glyph" viewBox="0 0 34 34" aria-hidden="true">
+              <path d="M11 15 V10.5 C11 3.5 23 3.5 23 10.5 V15" fill="none" class="shape-ink" stroke-width="2.4" />
+              <rect x="6" y="15" width="22" height="16" rx="3" class="shape-fill shape-ink" stroke-width="2.2" />
+              <path d="M17 21 V25" class="shape-accent" stroke-width="2.4" stroke-linecap="round" />
+            </svg>
+            <h3>Private and offline</h3>
+            <p>No account, no tracking, no network. Repositories are ordinary files in storage
+              you already use, and they never leave your device.</p>
+          </div>
+          <div class="card">
+            <svg class="glyph" viewBox="0 0 34 34" aria-hidden="true">
+              <path d="M9 27 C4 27 2.5 21 6.5 19 C5 13.5 11.5 10.5 15 14 C16 8 25.5 8 26 15 C31 15 32 22.5 27.5 24.5 C27 27 25 27 24 27 Z"
+                class="fill-behavior shape-ink" stroke-width="2.2" stroke-linejoin="round" />
+            </svg>
+            <h3>Seven languages</h3>
+            <p>English, German, French, Ukrainian, Spanish, Japanese and Portuguese, with UML
+              terms in each language's established words. Pick one in the app or in system
+              settings.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing">
+        <picture>
+          <source srcset="assets/icon-dark.png" media="(prefers-color-scheme: dark)" />
+          <img src="assets/icon.png" width="96" height="96" alt="QEA Master app icon" />
+        </picture>
+        <h2>Take the repository with you</h2>
+        <p>One app for iPhone, iPad and Mac.</p>
+        <a class="button solid" href="https://apps.apple.com/app/id6835485167">Get it on the App Store</a>
+      </section>
+    </div>
+  </main>
+
+  <footer class="foot">
+    <nav aria-label="Footer">
+      <a href="support.html">Support</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="https://apps.apple.com/app/id6835485167">App Store</a>
+      <a href="mailto:volodymyr.sichka@gmail.com">Contact</a>
+    </nav>
+    <p>© 2026 Volodymyr Sichka</p>
+    <p class="legal">Enterprise Architect is a trademark of Sparx Systems Pty Ltd. UML® and BPMN™ are
+      trademarks of Object Management Group, Inc. ArchiMate® is a registered trademark of The Open
+      Group. QEA Master is not affiliated with or endorsed by Sparx Systems, Object Management Group
+      or The Open Group.</p>
+  </footer>
+</body>
+
+</html>

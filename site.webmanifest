@@ -1,0 +1,13 @@
+{
+  "name": "QEA Master",
+  "short_name": "QEA Master",
+  "description": "A viewer for .qea and .qeax model repositories on iPhone, iPad and Mac.",
+  "start_url": "marketing.html",
+  "display": "browser",
+  "background_color": "#e5d2bc",
+  "theme_color": "#b4471a",
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icon.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
